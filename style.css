@@ -14,7 +14,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 78%;
+    width: 100%;
     padding-left: 12%;
     padding-right: 12%;
     margin-top: 8px;
@@ -84,4 +84,45 @@ nav li a i{
     padding: 0;
     letter-spacing: 2;
     font-weight: 500;
+    font-family: 'Jost', sans-serif;
+}
+.header-text{
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 30px;
+    width: 90%;
+    margin: 30px 0;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+.selected{
+    height: 60px;
+    display: inline-block;
+    color: #fffff5;
+    background-color: #ff6364;
+    border: none;
+    font-size: 17px;
+    padding: 20px 40px 20px 40px;
+    font-weight: 600;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
+}
+.selected:hover{
+    background-color: #000;
+}
+.deselected{
+    height: 60px;
+    color: #fffff5;
+    background-color: #000;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px 40px 20px 40px;
+    display: inline-block;
+    font-weight: 600;
+    box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
+}
+.deselected:hover{
+    background-color: #ff6364;
 }
