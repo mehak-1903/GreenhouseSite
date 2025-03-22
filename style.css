@@ -188,3 +188,97 @@ nav li a i{
 .deselected:hover{
     background-color: #ff6364;
 }
+.image{
+    width: 20%;
+}
+.image{
+    width: 28%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+
+.img1-cont{
+    height: 230px;
+    width: 30%;
+    flex: 1;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+
+.spotlight-img1{
+    background-size: cover;
+    height: auto;
+    width: 100px;
+    object-fit: cover;
+    margin-top: -10px;
+    mix-blend-mode: multiply;
+}
+
+.img-heading1{
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.hanging-light-img2{
+    background-size: cover;
+    height: auto;
+    width: 90px;
+    object-fit: cover;
+    margin-top: -10px;
+}
+
+.img-heading2{
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+
+.wooden-clock-img3{
+    background-size: cover;
+    height: auto;
+    width: 90px;
+    object-fit: cover;
+    margin-top: -10px;
+}
+
+.img-heading3{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.stars{
+    background-size: cover;
+    height: auto;
+    width: 90%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.arrow{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ff6364;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-arrow-right{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.9em;
+}
