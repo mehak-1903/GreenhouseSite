@@ -65,7 +65,7 @@ nav li a i{
     top: 100%;
     transform: translateX(-50%);
     background-color: white;
-    min-width: 200px;
+    min-width: 170px;
     /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
     z-index: 1000;
     list-style: none;
@@ -89,19 +89,17 @@ nav li a i{
     text-decoration: none;
     color: #000;
     display: block;
-    padding: 5px 20px 5px 20px;
+    padding: 4px 10px;
     width: 100%;
 }
-
 
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* .dropdown-menu li:hover{
-    color: #fff;
+.dropdown-menu li:hover{
     background-color: #3f444b;
-} */
+}
 
 .dropdown-menu a:hover{
     color: #fff;
