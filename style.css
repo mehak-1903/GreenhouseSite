@@ -24,7 +24,6 @@ nav{
     height: 80px;
     overflow: hidden;
     margin-left: 20px;
-    mix-blend-mode: multiply;
 }
 .logo .img-logo{
     background-size: cover;
@@ -52,63 +51,65 @@ nav li a i{
     font-size: 0.8em;
 }
 
-/* Dropdown */
-
-.dropdown{
+/* Dropdown container */
+.dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown-menu{
-    position: absolute;
-    margin: 0;
-    padding: 0;
+/* Dropdown menu */
+.dropdown-menu {
     display: none;
+    position: absolute;
+    left: 50%;
+    top: 100%;
     transform: translateX(-50%);
-    border: 1px solid black;
-    left: 100%;
-    top: 80%;
-    background-color: #fff;
-    min-width: 200px;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    overflow: hidden;
-    border-radius: 5px;
     list-style: none;
-}
-
-.dropdown-menu li{
-    padding: 10px;
+    padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    border-collapse: collapse;
 }
 
-.dropdown-menu li a{
+/* Dropdown items */
+.dropdown-menu li {
+    padding: 12px;
+    margin: 0; 
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
     text-decoration: none;
     color: black;
     display: block;
-    padding-left: 18px;
+    padding: 12px;
     width: 100%;
+    text-align: center;
 }
 
-.dropdown:hover{
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.dropdown .dropdown-menu li:hover{
-    background: #3f444b;
-}
-
-.dropdown .dropdown-menu a:hover{
-    color: #fff;
-    font-weight: 500;
-}
-
-.dropdown:hover i{
+.dropdown:hover i {
     transform: rotate(180deg);
     transition: transform 0.3s ease;
 }
+
 .home{
     color: #ff6364;
 }
@@ -130,7 +131,6 @@ nav li a i{
     height: 80%;
     width: 100%;
     margin-top: 7%;
-    padding: 60px;
 }
 .container{
     height: auto;
@@ -186,6 +186,7 @@ nav li a i{
 .deselected:hover{
     background-color: #ff6364;
 }
+
 
 /* Header Divs */
 .image{
@@ -355,3 +356,8 @@ nav li a i{
     font-weight: 600;
     margin: 20px;
 }
+
+
+
+
+
