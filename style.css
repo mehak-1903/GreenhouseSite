@@ -538,15 +538,15 @@ nav li a i {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .light-header-container{
     width: 24%;
     height: auto;
     line-height: 1;
-    margin-top: 12%;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 70px;
 }
 .light-heading1{
     font-size: 2.7em;
@@ -596,7 +596,7 @@ nav li a i {
 }
 
 .light-image{
-    width: 50%;
+    width: 48%;
     height: auto;
     margin-top: 40px;
 }
