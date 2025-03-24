@@ -103,6 +103,7 @@ nav li a i {
     margin: 0;
     border-radius: 5px;
     overflow: hidden;
+    border: 1px solid green;
 }
 
 /* Dropdown items */
@@ -129,6 +130,7 @@ nav li a i {
 
 .dropdown-menu li:hover {
     background-color: #3f444b;
+
 }
 
 .dropdown-menu a:hover {
@@ -483,7 +485,8 @@ nav li a i {
     font-size: 1.2em;
     text-align: center;
     font-weight: 200;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    line-height: 3.2;
 }
 
 .quote-btn {
@@ -495,8 +498,25 @@ nav li a i {
     padding: 10px 15px;
     font-weight: 600;
     cursor: pointer;
-    position: absolute;
-    transform: translateX(-50%);
-    top: 98%;
-    left: 50%;
+    transition: tranform 0.3s ease-in;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(110, 77, 77, 0.5);
+}
+
+.quote-btn:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
