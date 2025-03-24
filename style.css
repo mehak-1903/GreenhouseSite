@@ -455,7 +455,6 @@ nav li a i {
     flex-direction: column;
     align-items: center;
     height: 500px;
-    position: relative;
     margin-bottom: 100px;
 }
 
@@ -463,11 +462,7 @@ nav li a i {
     max-height: 220px;
     width: auto;
     object-fit: contain;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 80%;
-    left: 55%;
-    margin-top: auto;
+    margin-top: 65px;
     transition: transform 0.3s ease-in;
 }
 
