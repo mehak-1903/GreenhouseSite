@@ -103,12 +103,11 @@ nav li a i {
     margin: 0;
     border-radius: 5px;
     overflow: hidden;
-    border: 1px solid green;
 }
 
 /* Dropdown items */
 .dropdown-menu li {
-    padding: 5px;
+    padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
@@ -120,7 +119,7 @@ nav li a i {
     text-decoration: none;
     color: #000;
     display: block;
-    padding: 4px 10px;
+    padding: 10px 15px;
     width: 100%;
 }
 
@@ -528,4 +527,19 @@ nav li a i {
     100% {
         transform: translateY(0);
     }
+}
+
+/* Picture Layout Section */
+
+.picture-light{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right, #ff6364, #fa5657);
+}
+
+.light-heading1{
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    padding: 50px;
 }
