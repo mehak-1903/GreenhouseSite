@@ -28,6 +28,7 @@ nav {
     overflow: hidden;
     margin-left: 20px;
     transition: tranform 0.3s ease-in;
+
 }
 
 .logo .img-logo {
@@ -36,6 +37,7 @@ nav {
     object-position: center;
     height: auto;
     width: 100%;
+    cursor: pointer;
 }
 
 .logo:hover {
@@ -281,6 +283,7 @@ nav li a i {
     text-align: center;
     position: relative;
     background-color: #fff;
+
 }
 
 .spotlight-img1 {
@@ -290,6 +293,25 @@ nav li a i {
     object-fit: cover;
     margin-top: -10px;
     mix-blend-mode: multiply;
+    transition: transform 0.3s ease-in;
+}
+
+.spotlight-img1:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .img-heading1 {
@@ -304,6 +326,25 @@ nav li a i {
     width: 90px;
     object-fit: cover;
     margin-top: -10px;
+    transition: transform 0.3s ease-in;
+}
+
+.hanging-light-img2:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .img-heading2 {
@@ -319,6 +360,25 @@ nav li a i {
     width: 90px;
     object-fit: cover;
     margin-top: -10px;
+    transition: transform 0.3s ease-in;
+}
+
+.wooden-clock-img3:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .img-heading3 {
