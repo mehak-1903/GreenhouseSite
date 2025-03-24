@@ -8,7 +8,6 @@
 
 body {
     background: #fff5f4;
-
 }
 
 /* navbar */
@@ -20,6 +19,7 @@ nav {
     padding-left: 12%;
     padding-right: 12%;
     margin-top: 8px;
+    
 }
 
 .logo {
@@ -161,6 +161,7 @@ nav li a i {
     height: 80%;
     width: 100%;
     margin-top: 7%;
+
 }
 
 .container {
@@ -595,13 +596,17 @@ nav li a i {
 }
 
 .light-image{
-    width: auto;
+    width: 35%;
     height: auto;
     margin-top: 40px;
 }
 
+.light-image img{
+    width: 100%;
+}
+
 footer{
-    margin: 20px;
+    padding: 20px;
     width: auto;
     text-align: center;
     color: #9d9799;
