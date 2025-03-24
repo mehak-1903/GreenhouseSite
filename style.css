@@ -536,9 +536,9 @@ nav li a i {
     width: 100%;
     background: linear-gradient(135deg, #ff6364 60%, #fa5657 40%);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .light-header-container{
@@ -596,7 +596,7 @@ nav li a i {
 }
 
 .light-image{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-top: 40px;
 }
