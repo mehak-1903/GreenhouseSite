@@ -422,7 +422,7 @@ nav li a i {
 }
 
 .featuredProd {
-    padding-top: 40px;
+    padding-top: 120px;
     font-size: 3rem;
     word-spacing: 2px;
     font-weight: 500;
@@ -456,7 +456,7 @@ nav li a i {
     align-items: center;
     height: 500px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .product img {
