@@ -298,7 +298,7 @@ nav li a i{
     word-spacing: 2px;
     font-weight: 500;  
     font-family: 'Jost', sans-serif;
-
+    text-align: center;
 }
 
 .product-container{
@@ -368,7 +368,5 @@ nav li a i{
     transform: translateX(-50%);
     top: 90%;
     left: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
