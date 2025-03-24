@@ -549,7 +549,7 @@ nav li a i {
     margin-bottom: 50px;
 }
 .light-heading1{
-    font-size: 2.8em;
+    font-size: 2.7em;
     font-family: 'Jost', sans-serif;
     color: #fff;
     font-weight: 600;
@@ -557,7 +557,7 @@ nav li a i {
 
 .light-text{
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.35em;
     margin-top: 20px;
     font-weight: 100;
     line-height: 1.5;
@@ -596,7 +596,7 @@ nav li a i {
 }
 
 .light-image{
-    width: 38%;
+    width: 40%;
     height: auto;
     margin-top: 40px;
 }
