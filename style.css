@@ -472,6 +472,23 @@ nav li a i {
     top: 100%;
     left: 55%;
     margin-top: auto;
+    transition: transform 0.3s ease-in;
+}
+
+.product img:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+@keyframes bounce{
+    0%{
+        transition: transformX(0);
+    }
+    50%{
+        transition: transformX(-10px);
+    }
+    100%{
+        transition: transformX(0);
+    }
 }
 
 .prod-heading2 {
