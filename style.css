@@ -128,9 +128,10 @@ nav li a i {
     display: block;
 }
 
-.dropdown-menu li:hover {
+.dropdown-menu li:hover a,
+.dropdown-menu a:hover{
     background-color: #3f444b;
-
+    color: #fff !important;
 }
 
 .dropdown-menu a:hover {
