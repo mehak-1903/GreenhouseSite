@@ -596,13 +596,30 @@ nav li a i {
 }
 
 .light-image{
-    width: 35%;
+    width: 38%;
     height: auto;
     margin-top: 40px;
 }
 
 .light-image img{
     width: 100%;
+    transition: transorm 0.3s ease-in;
+}
+
+.light-image img:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 footer{
