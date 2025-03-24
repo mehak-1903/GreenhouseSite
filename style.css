@@ -327,7 +327,7 @@ nav li a i{
     align-items: center;
     height: 500px;
     position: relative;
-    margin-bottom: 45px;
+    /* margin-bottom: 25px; */
 }
 
 .product img{
@@ -366,7 +366,7 @@ nav li a i{
     cursor: pointer;
     position: absolute;
     transform: translateX(-50%);
-    top: 90%;
+    top: 98%;
     left: 50%;
 }
 
