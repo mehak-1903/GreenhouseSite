@@ -293,7 +293,7 @@ nav li a i{
 }
 
 .featuredProd{
-    margin: 40px;
+    /* margin: 40px; */
     font-size: 3rem;
     word-spacing: 2px;
     font-weight: 500;  
@@ -306,7 +306,7 @@ nav li a i{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin: 20px;
+    margin: 40px;
 } 
 
 .img-container{
@@ -321,7 +321,6 @@ nav li a i{
     width: 300px;
     text-align: center;
     border-radius: 5px;
-    background-color: #f3dada;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
