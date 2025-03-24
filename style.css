@@ -321,13 +321,13 @@ nav li a i{
     width: 300px;
     text-align: center;
     border-radius: 5px;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     height: 500px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .product img{
