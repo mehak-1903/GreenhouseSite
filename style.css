@@ -479,18 +479,19 @@ nav li a i {
     animation: bounce 0.9s ease-in;
 }
 
-@keyframes bounce{
-    0%{
-        transition: transformX(0);
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
     }
-    50%{
-        transition: transformX(-10px);
+
+    50% {
+        transform: translateY(-10px);
     }
-    100%{
-        transition: transformX(0);
+
+    100% {
+        transform: translateY(0);
     }
 }
-
 .prod-heading2 {
     font-size: 1.5em;
     margin-top: 140px;
