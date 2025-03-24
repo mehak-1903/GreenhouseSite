@@ -327,7 +327,7 @@ nav li a i{
     width: 300px;
     text-align: center;
     border-radius: 5px;
-
+    background-color: #f3dada;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
