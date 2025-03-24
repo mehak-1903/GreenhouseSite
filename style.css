@@ -134,11 +134,6 @@ nav li a i {
     color: #fff !important;
 }
 
-.dropdown-menu a:hover {
-    color: #fff;
-    background-color: #3f444b;
-}
-
 .dropdown:hover i {
     transform: rotate(180deg);
     transition: transform 0.3s ease;
