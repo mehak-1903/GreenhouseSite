@@ -580,6 +580,23 @@ nav li a i {
 
 .handmade-text img{
     margin-right: 10px; 
+    transition: transform 0.3s ease-in;
+}
+
+.handmade-text img:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translate(-10px);
+    }
+    100%{
+        transform: translate(0);
+    }
 }
 
 .handmade-text ul li{
@@ -599,7 +616,7 @@ nav li a i {
     font-weight: 600;
     text-align: center;
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 18px;
     box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
     transition: transform 0.3s ease-in;
 }
