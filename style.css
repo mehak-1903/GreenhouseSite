@@ -556,8 +556,29 @@ nav li a i {
     background-size: cover;
     object-fit: cover;
     width: auto;
-    
+    transition: transform 0.3s ease-in;
 }
+
+
+.handmade-container img:hover{
+    animation: bounce 0.9s ease-in;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .handmade-text h2{
     font-size: 3.3em;
     margin-top: 30px;
@@ -580,23 +601,7 @@ nav li a i {
 
 .handmade-text img{
     margin-right: 10px; 
-    transition: transform 0.3s ease-in;
-}
-
-.handmade-text img:hover{
-    animation: bounce 0.9s ease-in;
-}
-
-@keyframes bounce{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translate(-10px);
-    }
-    100%{
-        transform: translate(0);
-    }
+    
 }
 
 .handmade-text ul li{
