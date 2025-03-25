@@ -736,6 +736,33 @@ nav li a i {
     }
 }
 
+/*  Images Layout */
+
+.layout-container{
+    border: 1px solid blue;
+    width: 100%;
+    padding: 40px;
+}
+.grid{
+    border: 1px solid red;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.grid-images img{
+    width: 100%;  
+    height: auto;
+}
+
+.grid-images .img2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
 footer{
     padding: 20px;
     width: auto;
