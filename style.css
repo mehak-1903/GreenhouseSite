@@ -445,8 +445,8 @@ nav li a i {
 
 .handmade-container{
     margin: 30px 0;
-    width: 75%;
-    background: linear-gradient(145deg, #fff5f4 93%, #000 7%);
+    width: 77%;
+    background: linear-gradient(145deg, #fff 93%, #000 7%);
     display: flex;
     height: 600px;
     gap: 50px;
@@ -466,7 +466,7 @@ nav li a i {
 }
 
 .handmade-text h2{
-    font-size: 3.3em;
+    font-size: 3.2em;
     margin-top: 30px;
     font-weight: 500;
 }
@@ -482,18 +482,21 @@ nav li a i {
 
 .handmade-text ul{
     list-style: none;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-.handmade-text img{
-    margin-right: 10px; 
-    
+.handmade-text ul li img{
+    margin: 10px 10px auto;
+    /* margin-right: 15px; */
+
 }
 
 .handmade-text ul li{
     display: inline-block;
     margin-right: 20px;
     line-height: 3;
+    font-size: 1.3em;
+    font-weight: 300;
 }
 
 .selected2 {
