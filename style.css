@@ -863,11 +863,12 @@ nav li a i {
     height: 20px;
 }
 
-/* .favicon-list a:hover i,
+ .favicon-list a:hover i,
 .favicon-list i:hover{
-    background-color: #ff6364;
-    color: #fff !important;
-} */
+    animation: bounce 0.9s ease-in-out;
+} 
+
+
 
 .gallery{
     height: 100%;
