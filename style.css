@@ -891,11 +891,12 @@ main{
     height: 20px;
 }
 
-/* .favicon-list a:hover i,
+ .favicon-list a:hover i,
 .favicon-list i:hover{
-    background-color: #ff6364;
-    color: #fff !important;
-} */
+    animation: bounce 0.9s ease-in-out;
+} 
+
+
 
 .gallery{
     height: 100%;
@@ -941,5 +942,5 @@ footer{
     font-size: 16px;
     font-family: "Nunito", sans-serif;
     border-top: 1px solid #f9e6e4;
-    margin: 0 14.4px;
+    margin: 0px 14.4px;
 }
