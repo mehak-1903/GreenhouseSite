@@ -1,3 +1,11 @@
+
+.nunito-uniquifier {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +35,7 @@ nav {
     height: 80px;
     overflow: hidden;
     margin-left: 20px;
-    transition: tranform 0.3s ease-in;
+    transition: tranform 0.3s ease-in-out;
 
 }
 
@@ -41,7 +49,7 @@ nav {
 }
 
 .logo:hover {
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 @keyframes bounce {
@@ -202,12 +210,12 @@ nav li a i {
     margin-right: 5px;
     text-align: center;
     box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .selected:hover {
     background-color: #000;
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 
@@ -222,12 +230,12 @@ nav li a i {
     display: inline-block;
     font-weight: 600;
     box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .deselected:hover {
     background-color: #ff6364;
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 /* Header Divs */
@@ -262,11 +270,11 @@ nav li a i {
     object-fit: cover;
     margin-top: -10px;
     mix-blend-mode: multiply;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .spotlight-img1:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 .img-heading1 {
@@ -281,11 +289,11 @@ nav li a i {
     width: 90px;
     object-fit: cover;
     margin-top: -10px;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .hanging-light-img2:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 .img-heading2 {
@@ -301,11 +309,11 @@ nav li a i {
     width: 90px;
     object-fit: cover;
     margin-top: -10px;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .wooden-clock-img3:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 .img-heading3 {
@@ -392,11 +400,11 @@ nav li a i {
     width: auto;
     object-fit: contain;
     margin-top: 65px;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .product img:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 .prod-heading2 {
@@ -423,13 +431,13 @@ nav li a i {
     padding: 10px 15px;
     font-weight: 600;
     cursor: pointer;
-    transition: tranform 0.3s ease-in;
+    transition: tranform 0.3s ease-in-out;
     margin: auto;
     box-shadow: 0px 0px 10px 0px rgba(110, 77, 77, 0.5);
 }
 
 .quote-btn:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 /* Handmade Creation Section  */
@@ -457,12 +465,12 @@ nav li a i {
     background-size: cover;
     object-fit: cover;
     width: auto;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 
 .handmade-container img:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 .handmade-text h2{
@@ -512,12 +520,12 @@ nav li a i {
     margin-left: 15px;
     margin-top: 18px;
     box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .selected2:hover {
     background-color: #000;
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 /* Picture Layout Section */
@@ -561,13 +569,13 @@ nav li a i {
     border: none;
     font-weight: 500;
     margin: 30px 0;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .read-more:hover{
     color: #000;
     background-color: #fff;
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 .light-image{
@@ -578,11 +586,11 @@ nav li a i {
 
 .light-image img{
     width: 100%;
-    transition: transorm 0.3s ease-in;
+    transition: transorm 0.3s ease-in-out;
 }
 
 .light-image img:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 
@@ -622,11 +630,11 @@ nav li a i {
     height: 100%;
     object-fit: cover;
     max-height: 380px;     /*/Limits height to prevent oversized images*/
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 }
 
 .grid-images img:hover{
-    animation: bounce 0.9s ease-in;
+    animation: bounce 0.9s ease-in-out;
 }
 
 /*  Logo Section */
@@ -639,6 +647,68 @@ nav li a i {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.logo-container img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-container img:hover{
+    animation: bounce 0.9s ease-in-out;
+}
+
+/* Services */
+
+.services{
+    width: 80%;
+    height: auto;
+    padding: 40px;
+    margin: 8% auto;
+    background: linear-gradient(203deg, #fff 92%, #000 8%);
+}
+
+.services-container{
+    height: auto;
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;   
+    text-align: center; 
+}
+
+.img-circle{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #fff5f4;
+    gap: 20px;
+}
+.img-circle img{
+    margin: 5px auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+}
+
+.img-circle img:hover{
+    animation: bounce 0.9s ease-out;
+}
+
+.img-circle:first-child img{
+    width: 60px;
+    height: auto;
+    margin: 12px auto;
+    object-fit: cover;
+}
+
+.services-container h3{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1em;
+    font-family: 'Nunito', sans-serif;
+    /* margin-right: 40px; */
+}
+
 footer{
     padding: 20px;
     width: auto;
