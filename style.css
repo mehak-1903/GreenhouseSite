@@ -629,6 +629,16 @@ nav li a i {
     animation: bounce 0.9s ease-in;
 }
 
+/*  Logo Section */
+
+.logo-container{
+    height: auto;
+    width: 85%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 footer{
     padding: 20px;
     width: auto;
