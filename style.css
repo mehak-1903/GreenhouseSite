@@ -1,4 +1,3 @@
-
 .nunito-uniquifier {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
@@ -165,17 +164,28 @@ nav li a i {
 }
 
 /* main section */
-.header {
-    height: 80%;
-    width: 100%;
-    margin-top: 7%;
 
+main{
+    background: linear-gradient(131deg, #fff 72%, #ff6364 28%);
+    width: 100%;
+    height: 900px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
+
+.header {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .container {
     height: auto;
-    width: 30%;
-    margin-left: 25%;
+    width: 55%;
 }
 
 .heading {
@@ -184,9 +194,11 @@ nav li a i {
     margin: 0;
     padding: 0;
     letter-spacing: 2;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Jost', sans-serif;
 }
+
+
 
 .header-text {
     font-size: 1.6em;
@@ -197,6 +209,7 @@ nav li a i {
     letter-spacing: 1px;
     padding-bottom: 15px;
 }
+
 
 .selected {
     height: 60px;
@@ -236,32 +249,31 @@ nav li a i {
 .deselected:hover {
     background-color: #ff6364;
     animation: bounce 0.9s ease-in-out;
-}
+} 
 
 /* Header Divs */
-.image {
-    width: 20%;
-}
+
 
 .image {
-    width: 28%;
-    margin-left: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 100px;
+    gap: 10px;  
+    height: 420px;
+    width: 100%;
+    margin-bottom: 10px;    
 }
 
+
 .img1-cont {
-    height: 230px;
-    width: 30%;
+    height: auto;
+    width: 100%;
     flex: 1;
     text-align: center;
     position: relative;
     background-color: #fff;
-
 }
+
 
 .spotlight-img1 {
     background-size: cover;
@@ -276,6 +288,7 @@ nav li a i {
 .spotlight-img1:hover{
     animation: bounce 0.9s ease-in-out;
 }
+
 
 .img-heading1 {
     font-size: 1.4em;
@@ -325,9 +338,10 @@ nav li a i {
 .stars {
     background-size: cover;
     height: auto;
-    width: 90%;
+    width: 50%;
     object-fit: cover;
-    padding: 5px;
+    /* padding: 5px;    */
+    margin-bottom: 20px;
 }
 
 .arrow {
@@ -348,6 +362,20 @@ nav li a i {
     color: #fff;
     font-weight: bold;
     font-size: 1.9em;
+} 
+
+.header-image{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+
+.header-image img{
+    height: auto;
+    width: 75%;
+    object-fit: cover;
+    position: absolute;
+    top: 12%;
 }
 
 /* Featured Products */
@@ -905,13 +933,13 @@ nav li a i {
 }
 
 footer{
-    padding: 20px;
+    padding: 30px;
     width: auto;
     text-align: center;
     color: #9d9799;
     background-color: #fff5f4;
-    font-size: 1.1em;
-    font-family: 200;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
     border-top: 1px solid #f9e6e4;
+    margin: 0 14.4px;
 }
-
