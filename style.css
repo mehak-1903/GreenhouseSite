@@ -30,7 +30,7 @@ nav {
     width: 228px;
     height: 63px;
     overflow: hidden;
-    transition: tranform 0.3s ease-in-out;
+    
 }
 
 .logo .img-logo {
@@ -43,7 +43,7 @@ nav {
 }
 
 .logo:hover {
-    animation: bounce 0.9s ease-in-out;
+    animation: lift-stay 0.4s ease-out forwards;
 }
 
 .nav-list {
@@ -460,7 +460,6 @@ main{
 }
 
 .quote-btn {
-    height: 40px;
     color: #fffff5;
     background-color: #ff6364;
     border: none;
@@ -569,7 +568,7 @@ main{
 
 .picture-light{
     width: 100%;
-    background: linear-gradient(145deg, #ff6364 62%, #fa5657 38%);
+    background: linear-gradient(148deg, #ff6364 62%, #fa5657 38%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -911,13 +910,11 @@ main{
     height: 35px;
     width: 35px;
     text-decoration: none;
-
 }
 
 .favicon-list a i{
     width: 30px;
     height: 30px;
-   
 }
 
  .favicon-list a:hover i,
@@ -928,8 +925,7 @@ main{
     display:flex;
     align-items:center;
     justify-content:center;
-    animation: lift-stay 0.4s ease-out forwards;
-    
+    animation: lift-stay 0.4s ease-out alternate infinite;
 } 
 
 @keyframes lift-stay {
