@@ -30,7 +30,7 @@ nav {
     width: 228px;
     height: 63px;
     overflow: hidden;
-    transition: tranform 0.3s ease-in-out;
+    /* transition: tranform 0.3s ease-in-out; */
 }
 
 .logo .img-logo {
@@ -40,10 +40,11 @@ nav {
     height: auto;
     width: 100%;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
-.logo:hover {
-    animation: bounce 0.9s ease-in-out;
+.logo .img-logo:hover {
+    transform: translateY(-10px);
 }
 
 .nav-list {
@@ -226,7 +227,7 @@ main{
 
 .selected:hover {
     background-color: #000;
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 
@@ -246,7 +247,7 @@ main{
 
 .deselected:hover {
     background-color: #ff6364;
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 } 
 
 /* Header Divs */
@@ -284,7 +285,7 @@ main{
 }
 
 .spotlight-img1:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 
@@ -306,7 +307,7 @@ main{
 }
 
 .hanging-light-img2:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 .img-heading2 {
@@ -327,7 +328,7 @@ main{
 }
 
 .wooden-clock-img3:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 .img-heading3 {
@@ -440,7 +441,7 @@ main{
 }
 
 .product img:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 .prod-heading2 {
@@ -468,13 +469,13 @@ main{
     padding: 12px 19px;
     font-weight: 600;
     cursor: pointer;
-    transition: tranform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     margin: auto;
     box-shadow: 1px 12px 19px 0px rgba(255, 98.99999999999999, 99.99999999999984, 0.25);
 }
 
 .quote-btn:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 /* Handmade Creation Section  */
@@ -507,7 +508,7 @@ main{
 
 
 .handmade-container img:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 .handmade-text h2{
@@ -562,7 +563,7 @@ main{
 
 .selected2:hover {
     background-color: #000;
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 /* Picture Layout Section */
@@ -616,7 +617,7 @@ main{
 .read-more:hover{
     color: #000;
     background-color: #fff;
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 .light-image{
@@ -628,11 +629,11 @@ main{
 
 .light-image img{
     width: 100%;
-    transition: transorm 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .light-image img:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 
@@ -691,7 +692,7 @@ main{
 }
 
 .grid-images img:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 /*  Logo Section */
@@ -717,7 +718,7 @@ main{
 }
 
 .logo-container img:hover{
-    animation: bounce 0.9s ease-in-out;
+    transform: translateY(-10px);
 }
 
 /* Services */
@@ -780,7 +781,6 @@ main{
     transition: transform 0.3s ease-out;
     z-index: 1;
     position: relative;
-    transition: transform 0.4s ease-out;
     left: 7%;
     top: 10%;
 }
@@ -798,9 +798,6 @@ main{
     margin-top: 15px;
 }
 
-.img-circle img:hover{
-    transform: translateY(-10px);
-}
 /* Info */
 
 .info{
@@ -948,13 +945,13 @@ main{
     height: 35px;
     width: 35px;
     text-decoration: none;
-
+    transition: transform 0.3s ease-in-out;
 }
 
 .favicon-list a i{
     width: 30px;
     height: 30px;
-   
+    transition: transform 0.3s ease-in-out;
 }
 
  .favicon-list a:hover i,
@@ -965,22 +962,8 @@ main{
     display:flex;
     align-items:center;
     justify-content:center;
-    animation: lift-stay 0.4s ease-out forwards;
-    
+    transform: translateY(-10px);  
 } 
-
-@keyframes lift-stay {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-7px);
-    }
-    100% {
-        transform: translateY(-7px); 
-    }
-}
-
 
 .gallery{
     height: 100%;
@@ -1000,9 +983,9 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 5px;
+    gap: 10px;
     grid-auto-rows: 80px;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -1010,11 +993,6 @@ main{
     width: 100%;
     max-height: 60px;
     object-fit: cover;
-    transition: transorm 0.3s ease-in-out;
-}
-
-.footer-images img:hover{
-    animation: bounce 0.9s ease-in-out;
 }
 
 footer{
