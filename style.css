@@ -1011,17 +1011,30 @@ main{
 }
 
 footer{
-    padding: 30px;
-    width: auto;
-    text-align: center;
-    color: #9d9799;
-    background-color: #fff5f4;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-    border-top: 1px solid #f9e6e4;
+    height: 70px;
+    width: 100%;
     margin: 0px 14.4px;
+    border-top: 1px solid #f9e6e4;
 }
 
+.footer-text{
+    color: #9d9799;
+    background-color: #fff5f4;
+    font-size: 16px;    
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    animation: slideDown 0.8s ease-in-out; 
+}
+
+@keyframes slideDown{
+    from{
+        transform: translateY(-25px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 /* Calling */
 .sticky-button{
     position: fixed;
