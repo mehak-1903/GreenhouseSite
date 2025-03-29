@@ -204,6 +204,7 @@ main{
     padding-bottom: 15px;
     max-width: 100%;
     margin-left: 10px;
+    animation: slideDown 0.8s ease-in-out;
 }
 
 
@@ -399,6 +400,7 @@ main{
     font-weight: 500;
     font-family: 'Jost', sans-serif;
     text-align: center;
+    animation: slideDown 0.8s ease-in-out;
 }
 
 .product-container {
@@ -607,6 +609,7 @@ main{
     font-family: 'Jost', sans-serif;
     color: #fff;
     font-weight: 500;
+    animation: slideDown 0.8s ease-in-out;
 }
 
 .light-text{
