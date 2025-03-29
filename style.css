@@ -30,7 +30,6 @@ nav {
     width: 228px;
     height: 63px;
     overflow: hidden;
-    /* transition: tranform 0.3s ease-in-out; */
 }
 
 .logo .img-logo {
@@ -97,7 +96,6 @@ nav li a i {
     transform: translateX(-50%);
     background-color: white;
     min-width: 180px;
-    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
     z-index: 1000;
     list-style: none;
     padding: 0;
@@ -159,7 +157,7 @@ nav li a i {
 /* main section */
 
 main{
-    background: linear-gradient(131deg, #fff5f4 72%, #ff6364 28%);
+    background: linear-gradient(128deg, #fff5f4 70%, #ff6364 30%);
     width: 100%;
     height: 900px;
     margin-top: 120px;
@@ -219,7 +217,7 @@ main{
     font-size: 17px;
     padding: 21px 42px;
     font-weight: 600;
-    /* margin-right: 5px; */
+    margin-right: 5px;
     text-align: center;
     box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
     transition: transform 0.3s ease-in-out;
@@ -387,7 +385,7 @@ main{
     width: 100%;
     background-color: #fff;
     text-align: center;
-    margin-bottom: 230px;
+    margin-bottom: 200px;
 }
 
 .featuredProd {
@@ -403,8 +401,10 @@ main{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin: 40px;
+    gap: 20px;        
+    height: 650px;
+    width: 1140px;
+    margin: auto;
 }
 
 .img-container {
@@ -413,12 +413,6 @@ main{
     height: 220px;
     position: relative;
     padding: 62px 5px 34px 0;
-}
-
-.product-container{
-    height:595px;
-    width: 1140px;
-    margin: auto;
 }
 
 .product {
@@ -484,7 +478,7 @@ main{
 .handmade-creations{
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,7 +486,7 @@ main{
 }
 
 .handmade-container{
-    margin: 30px 0;
+    /* margin: 30px 0;   */
     width: 1140px;
     background: linear-gradient(138deg, #fff 95%, #000 5%);
     display: flex;
@@ -1016,4 +1010,61 @@ footer{
     font-family: "Nunito", sans-serif;
     border-top: 1px solid #f9e6e4;
     margin: 0px 14.4px;
+}
+
+/* Calling */
+.sticky-button{
+    position: fixed;
+    inset: 50% 0 auto auto;
+    transform: translateY(-50%);
+    display: flex;
+    z-index: 9;
+}
+
+.sticky-button li{
+    list-style: none;
+    position: relative; 
+}
+
+.sticky-button li a{
+    text-decoration: none;
+}
+.sb-icon{
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff6364;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.sb-icon:hover{
+    background-color: #fff;
+    color: #ff6364 !important;
+}
+
+.sb-label{
+    position: absolute;
+    left: -320%;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff6364;
+    visibility: hidden;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.sb-icon:hover + .sb-label{
+    opacity: 1;
+    visibility: visible;
 }
