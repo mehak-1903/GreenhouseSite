@@ -211,18 +211,22 @@ main{
     height: 59px;
     width: 191px;
     /* display: inline-block; */
-    color: #fffff5;
+    
     background-color: #ff6364;
     border: none;
-    font-size: 17px;
     padding: 21px 42px;
-    font-weight: 600;
     margin-right: 5px;
     text-align: center;
     box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
     transition: transform 0.3s ease-in-out;
 }
 
+.selected a{
+    text-decoration: none;
+    color: #fffff5;
+    font-size: 17px;
+    font-weight: 600;
+}
 .selected:hover {
     background-color: #000;
     transform: translateY(-10px);
@@ -456,17 +460,20 @@ main{
 }
 
 .quote-btn {
-    height: 40px;
-    color: #fffff5;
     background-color: #ff6364;
     border: none;
-    font-size: 17px;
-    padding: 12px 19px;
-    font-weight: 600;
+    padding: 12px 19px;  
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     margin: auto;
     box-shadow: 1px 12px 19px 0px rgba(255, 98.99999999999999, 99.99999999999984, 0.25);
+}
+
+.quote-btn a{
+    color: #fffff5;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .quote-btn:hover{
@@ -555,17 +562,20 @@ main{
 }
 
 .selected2 {
-    /* display: inline-block; */
-    color: #fffff5;
     background-color: #ff6364;
     border: none;
-    font-size: 17px;
     padding: 20px 40px;
-    font-weight: 600;
     text-align: center;
     margin-left: 15px;
     box-shadow: 1px 12px 19px 0px rgba(255, 98.99999999999999, 99.99999999999984, 0.25);
     transition: transform 0.3s ease-in;
+}
+
+.selected2 a{
+    color: #fffff5;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .selected2:hover {
