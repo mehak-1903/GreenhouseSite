@@ -796,15 +796,31 @@ main{
     object-fit: cover;
     max-height: 380px;     /*/Limits height to prevent oversized images*/
     transition: transform 0.3s ease-in-out;
+    animation: none !important;
 }
 
-.grid-images img:nth-child(1){
-    animation: slideInRight 2s ease-in-out forwards;
+/* Animations in grid img */
+.grid-images img:nth-of-type(1){
+    animation: slideInRight 2s ease-in-out forwards !important;
 }
 
-.grid-images img:nth-child(2){
-    animation: slideDown 0.8s ease-in-out;
+.grid-images img:nth-of-type(2){
+    animation: slideDown 0.8s ease-in-out forwards !important;
 }
+
+.grid-images img:nth-of-type(3){
+    animation: slideInRight 2s ease-in-out forwards !important;
+}
+
+.grid-images img:nth-of-type(6){
+    animation: slideDown 0.8s ease-in-out forwards !important;
+}
+
+.grid-images img:nth-of-type(7){
+    animation: slideInLeft 2s ease-in-out forwards !important;
+}
+
+
 .grid-images img:hover{
     transform: translateY(-10px);
 }
