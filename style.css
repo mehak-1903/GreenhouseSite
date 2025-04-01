@@ -217,13 +217,11 @@ main{
     margin-right: 5px;
     text-align: center;
     box-shadow: 12px 12px 19px 0 rgba(82.99999999999999, 82.99999999999999, 82.99999999999999, 0.25);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out forwards !important;
     opacity: 0;
     transform: translate(100px);
     animation: slideIn 3s ease-in-out forwards;
     display: inline-block;
-    position: relative;
-    z-index: 1;
 }
 
 @keyframes slideIn{
@@ -244,10 +242,11 @@ main{
     color: #fffff5;
     font-size: 17px;
     font-weight: 600;
+    
 }
 .selected:hover {
     background-color: #000;
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 
