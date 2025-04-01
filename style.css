@@ -504,13 +504,25 @@ main{
     /* gap: 30px; */
 }
 
-.handmade-container img{
+.handmade-container-img{
     background-size: cover;
     object-fit: cover;
     width: auto;
     transition: transform 0.3s ease-in-out;
+    transform: translate(100%);
+    animation: slideInRight 2s ease-in-out forwards;
 }
 
+@keyframes slideInRight{
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 .handmade-container img:hover{
     transform: translateY(-10px);
@@ -518,6 +530,19 @@ main{
 
 .handmade-text{
     margin-left: 40px;
+    transform: translate(-100%);
+    animation: slideInLeft 2s ease-in-out forwards;
+}
+
+@keyframes slideInLeft{
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .handmade-text h2{
