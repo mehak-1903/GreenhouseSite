@@ -1225,11 +1225,12 @@ footer{
     transform: translateY(-50%);
     white-space: nowrap;
     padding: 0 10px;
+    border-radius: 5px;
+    background-color: #fff;
     color: #ff6364;
     visibility: hidden;
     font-weight: 500;
     font-size: 20px;
-    opacity: 1;
     transition: opacity 0.3s ease-in-out, visibility 0.2s ease-in-out;
 }
 
