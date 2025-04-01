@@ -812,6 +812,14 @@ main{
     animation: slideInRight 2s ease-in-out forwards !important;
 }
 
+.grid-images img:nth-of-type(4){
+    animation: none;
+}
+
+.grid-images img:nth-of-type(5){
+    animation: none;
+}
+
 .grid-images img:nth-of-type(6){
     animation: slideDown 0.8s ease-in-out forwards !important;
 }
