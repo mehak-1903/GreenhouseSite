@@ -1252,4 +1252,5 @@ footer{
 
 .sb-icon:hover + .sb-label{
     opacity: 1;
-    visibility: visibl
+    visibility: visible;
+}
