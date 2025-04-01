@@ -1225,8 +1225,6 @@ footer{
     transform: translateY(-50%);
     white-space: nowrap;
     padding: 0 10px;
-    border-radius: 5px;
-    background-color: #fff;
     color: #ff6364;
     visibility: hidden;
     font-weight: 500;
